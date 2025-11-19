@@ -1,0 +1,591 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16167 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-19T20:50:14Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zeyne" at "2025-11-19T20:50:14.7881158Z"
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity1/EscapeTheHorde
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+9716
+-licensingIpc
+LicenseClient-zeyne
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity1/EscapeTheHorde
+D:/Unity1/EscapeTheHorde
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [87504]  Target information:
+
+Player connection [87504]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4287996115 [EditorId] 4287996115 [Version] 1048832 [Id] WindowsEditor(7,ZEYNEP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [87504]  * "[IP] 192.168.204.1 [Port] 0 [Flags] 2 [Guid] 4287996115 [EditorId] 4287996115 [Version] 1048832 [Id] WindowsEditor(7,ZEYNEP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [87504]  * "[IP] 192.168.74.1 [Port] 0 [Flags] 2 [Guid] 4287996115 [EditorId] 4287996115 [Version] 1048832 [Id] WindowsEditor(7,ZEYNEP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [87504]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 4287996115 [EditorId] 4287996115 [Version] 1048832 [Id] WindowsEditor(7,ZEYNEP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [87504] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [87504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity1/EscapeTheHorde/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8083 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003794 seconds.
+- Loaded All Assemblies, in  0.853 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zeyne"
+[Licensing::IpcConnector] LicenseClient-zeyne channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zeyne-6000.2.13" at "2025-11-19T20:50:16.7823269Z"
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1548ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (321ms)
+				TypeCache.ScanAssembly (300ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              bc187e1661a24713803121650b0a7e74
+  Correlation Id:          cb7c3b16f88ed9c1f5fc9426cc7790b8
+  External correlation Id: 8940424024735828303
+  Machine Id:              ZCg3gMVT1J3CmcU9IXQkyOTUatM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zeyne-6000.2.13" (connect: 0.00s, validation: 0.01s, handshake: 1.27s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zeyne-6000.2.13-notifications" at "2025-11-19T20:50:18.0582544Z"
+[Licensing::Module] Licensing Background thread has ended after 3.27s
+[Licensing::Module] Licensing is initialized (took 0.63s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968333878129-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.577 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 2245ms
+	BeginReloadAssembly (873ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (229ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3519 unused Assets / (0.7 MB). Loaded Objects now: 4011.
+Memory consumption went from 81.3 MB to 80.6 MB.
+Total: 6.293400 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.270000 ms MarkObjects: 4.911800 ms  DeleteObjects: 0.777100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3542959.659713 seconds.
+  path: Assets/Coins/CoinMat.mat
+  artifactKey: Guid(18ba67b0ad4961e4cbf9ac7b7588dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coins/CoinMat.mat using Guid(18ba67b0ad4961e4cbf9ac7b7588dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c918cf971a506a154b08381b1565a0b') in 0.4555023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.274406 seconds.
+  path: Assets/PowerUps/HealthPowerUp.mat
+  artifactKey: Guid(d2fab8ca402c8a743b15c7f853276492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PowerUps/HealthPowerUp.mat using Guid(d2fab8ca402c8a743b15c7f853276492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b9c53ee742b5810ca2bc087211c62f7') in 0.0261871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PowerUps/SpeedPowerUp.mat
+  artifactKey: Guid(ad4a37ed6558b8e41a30e88bd2ffd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PowerUps/SpeedPowerUp.mat using Guid(ad4a37ed6558b8e41a30e88bd2ffd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68f08d90b494b4e7e46cf30a75447a77') in 0.0319894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.750587 seconds.
+  path: Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Aquamarine.mat
+  artifactKey: Guid(a542cf3e063190e4b9668dc67e48c784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Aquamarine.mat using Guid(a542cf3e063190e4b9668dc67e48c784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e352a374a85ecec79f11cee5405ee94') in 0.0506367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Topaz.mat
+  artifactKey: Guid(14a1e0463f6ba6c4c931ac546ec40756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Topaz.mat using Guid(14a1e0463f6ba6c4c931ac546ec40756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79e4987939624b51c767cd227a4349d2') in 0.010458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Ruby.mat
+  artifactKey: Guid(78cf158905a8760479674306237b382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyKebap/Stylized Gem Pack/Materials/M_Gemstone_Ruby.mat using Guid(78cf158905a8760479674306237b382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dfdebd0fb250f1fb1a08a033f36cd44') in 0.0105027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.270433 seconds.
+  path: Assets/DavePixel/ReadMe!.rtf.txt
+  artifactKey: Guid(48da252d681834248a196d748d646268) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/ReadMe!.rtf.txt using Guid(48da252d681834248a196d748d646268) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0c9ee9f180b74e873827167eb35ffcb') in 0.1120646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Materials/Brass.mat
+  artifactKey: Guid(723b7610bf604f14385806348f028ae0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Materials/Brass.mat using Guid(723b7610bf604f14385806348f028ae0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9d98a0c11c4b6cc8657f2c838ddca7a') in 0.0805566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(ca348650ad4c1254cb7631981b084ce4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerStats.cs using Guid(ca348650ad4c1254cb7631981b084ce4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21fbea8b828995779c3c1425c072e6ba') in 0.0194248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_BaseColor.png
+  artifactKey: Guid(d75cfc5cdfb618848ba81efaf20ab2be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_BaseColor.png using Guid(d75cfc5cdfb618848ba81efaf20ab2be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2c1b73b9e2317d2ced8aeb9b067d718') in 0.0892448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Normal.png
+  artifactKey: Guid(8e29d1c485dc4ed40a442b9f4bf9fd8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Normal.png using Guid(8e29d1c485dc4ed40a442b9f4bf9fd8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c980b9cbe8c5e3debe0662a86c7c5828') in 0.0268663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Demo/Demo.unity
+  artifactKey: Guid(8f9499ca4fe0576429765c6529ffb928) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Demo/Demo.unity using Guid(8f9499ca4fe0576429765c6529ffb928) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12fa2259e28fd9b92003d2ad2b7e6401') in 0.0199958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DavePixel/PirateCoin/Materials/Silver.mat
+  artifactKey: Guid(7943be8f14bf620439377a61014df5d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Materials/Silver.mat using Guid(7943be8f14bf620439377a61014df5d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '942066f2a72d192dcfc7b7cf4f737d0a') in 0.0609924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PowerUps/Prefabs/CubeHealth.prefab
+  artifactKey: Guid(e43b16f8cd505de4a915c4e9a65896b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PowerUps/Prefabs/CubeHealth.prefab using Guid(e43b16f8cd505de4a915c4e9a65896b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42c111156c9f4c7152266fe673a4f4a1') in 0.0618528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_BaseMap.png
+  artifactKey: Guid(d437c3bff3c1b3e4ea31fdde199b8899) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_BaseMap.png using Guid(d437c3bff3c1b3e4ea31fdde199b8899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3a9340029f8036368e02d84d16d215d') in 0.0283855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Brass/Coin_Low_lambert1_Roughness.png
+  artifactKey: Guid(bb7ec3119f06b5a4b9be9cc0bdac65cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Brass/Coin_Low_lambert1_Roughness.png using Guid(bb7ec3119f06b5a4b9be9cc0bdac65cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5251ceaab562dfe591002ab44dee86df') in 0.0332614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Brass/Coin_Low_lambert1_BaseColor.png
+  artifactKey: Guid(f10e871c7d6aa5a4db07efaf3aa259cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Brass/Coin_Low_lambert1_BaseColor.png using Guid(f10e871c7d6aa5a4db07efaf3aa259cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9af48fc4a7b055d9a6c7c47f5c1d757') in 0.0269407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Height.png
+  artifactKey: Guid(23f84244abefde9409d25861088b5e66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Height.png using Guid(23f84244abefde9409d25861088b5e66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41ce52cab7a16aff8a5eec8bb65dae4a') in 0.0247896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/Brass/Brass_Color.png
+  artifactKey: Guid(d42974c81b6cc45468c9f90b7d8117ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/Brass/Brass_Color.png using Guid(d42974c81b6cc45468c9f90b7d8117ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5720b87831cfc819b18aac8fc39393b3') in 0.026894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PowerUps/Prefabs/CubeDamage.prefab
+  artifactKey: Guid(9ab7261a91901ed4ab678d4842b65c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PowerUps/Prefabs/CubeDamage.prefab using Guid(9ab7261a91901ed4ab678d4842b65c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6badd30b942bfa218cc080fde65b2c6') in 0.0304024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_Metallic.png
+  artifactKey: Guid(086ea071f14f2804c9695c3f5c72f441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_Metallic.png using Guid(086ea071f14f2804c9695c3f5c72f441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd509d6a9301016274a259ffa7f0db7aa') in 0.0244184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DavePixel/PirateCoin/Models/PirateCoin.fbx
+  artifactKey: Guid(f48a1b3e05cf7d94f9ec9b272c050643) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Models/PirateCoin.fbx using Guid(f48a1b3e05cf7d94f9ec9b272c050643) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a66a6bcc9e6266e85b692e54279aed4') in 0.0516318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PowerUp.cs
+  artifactKey: Guid(b81621e1113fd5c4990e7a17b9cb63a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PowerUp.cs using Guid(b81621e1113fd5c4990e7a17b9cb63a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb6cdf31040fa0d9b721379f257cc15a') in 0.0209724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Silver/Coin_Low_lambert1_Roughness.png
+  artifactKey: Guid(463f3dc5fff34ad41918e6a46194112f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Silver/Coin_Low_lambert1_Roughness.png using Guid(463f3dc5fff34ad41918e6a46194112f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06f47b32841485930f043104f2bdbb9a') in 0.0259506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/DarkGold/DarkGold_MaskMap.png
+  artifactKey: Guid(eff94065a061cd04398d12b245878a5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/DarkGold/DarkGold_MaskMap.png using Guid(eff94065a061cd04398d12b245878a5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b77c342133525762213b02bf78b8b05') in 0.0225423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Silver/Coin_Low_lambert1_Normal.png
+  artifactKey: Guid(ddaa6822c4954434595fd089bfee2a14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Silver/Coin_Low_lambert1_Normal.png using Guid(ddaa6822c4954434595fd089bfee2a14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2d054b872f2d9731822c4492b128005') in 0.0261991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Metallic.png
+  artifactKey: Guid(0a3469efa564f3c4caf195b1adaea4b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Metallic.png using Guid(0a3469efa564f3c4caf195b1adaea4b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8b55b6e5414aa420142877ae3856132') in 0.027456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Coins/Prefabs/Sphere.prefab
+  artifactKey: Guid(16d79d2ca8944ad4eb1a69b4a3a78216) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Coins/Prefabs/Sphere.prefab using Guid(16d79d2ca8944ad4eb1a69b4a3a78216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79ab9971c2c06a639cb6b83c7116f94b') in 0.0268078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aba17b327fd9b487a1b0964a729d132c') in 0.0204233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Prefabs/PirateCoin (DarkGold) Variant.prefab
+  artifactKey: Guid(c2aeef5fdf7d230489cd2cd53b42d6e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Prefabs/PirateCoin (DarkGold) Variant.prefab using Guid(c2aeef5fdf7d230489cd2cd53b42d6e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bc483026b4c2d0ba43ae35fa69e42b7') in 0.0288097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/ReflectionProbe-0.exr
+  artifactKey: Guid(4e99d6fbfa0fdda4a9ada255e6fc364d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/ReflectionProbe-0.exr using Guid(4e99d6fbfa0fdda4a9ada255e6fc364d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c1c975d405cf8448d1326fa87d760d8') in 0.0213137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_MaskMap.png
+  artifactKey: Guid(0b1a66f6f6a90bb4c8b7a606f9efe1ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_MaskMap.png using Guid(0b1a66f6f6a90bb4c8b7a606f9efe1ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db1e1c25be687bad9a0d0f9556329f0d') in 0.0315291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(914435a671753f1409006e608e8d7c15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/Sky and Fog Settings Profile.asset using Guid(914435a671753f1409006e608e8d7c15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bb0adb838db3e99962f55b0e5e4736a') in 0.0163472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Materials/Silver.mat
+  artifactKey: Guid(d308cdf0bcb0a174eb321157e4172e60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Materials/Silver.mat using Guid(d308cdf0bcb0a174eb321157e4172e60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7171082d3588398880826a02b44a12af') in 0.0165201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Materials/DarkGold.mat
+  artifactKey: Guid(c621c9700f1d9a843991c7ddd4b50f06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Materials/DarkGold.mat using Guid(c621c9700f1d9a843991c7ddd4b50f06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '825bd1c130124cd8d5ceaf98541bdd20') in 0.0195582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Models/PirateCoin.fbx
+  artifactKey: Guid(5d0dbe9cd045eb6458b6aa0a6ffc0235) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Models/PirateCoin.fbx using Guid(5d0dbe9cd045eb6458b6aa0a6ffc0235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb971a3e4eeae716938ec1b75f25b9b5') in 0.0415331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_Normal.png
+  artifactKey: Guid(b442f5e5f310e2849b438ec757ce5f96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/Silver/Silver_Normal.png using Guid(b442f5e5f310e2849b438ec757ce5f96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30160ae0fb24b5b8bc3af7e06aaf846d') in 0.0264982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_BaseColor.png
+  artifactKey: Guid(a04cf85b17e3e094ba49469e2d801963) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_BaseColor.png using Guid(a04cf85b17e3e094ba49469e2d801963) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f9a35e3c1557adedbf1ceec4e475f6d') in 0.0319201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DavePixel/PirateCoin/Prefabs/PirateCoin.prefab
+  artifactKey: Guid(3e29573f06c0a7e4fa986fff41de17af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Prefabs/PirateCoin.prefab using Guid(3e29573f06c0a7e4fa986fff41de17af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e191d0efc3479dfb279d86eaa4c3e147') in 0.0211147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DavePixel/PirateCoin/Prefabs/PirateCoin (Silver).prefab
+  artifactKey: Guid(0f50703abc621e54f948ddc5bb146f25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Prefabs/PirateCoin (Silver).prefab using Guid(0f50703abc621e54f948ddc5bb146f25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ec00b15b3a5fc9163774f041b0a4c26') in 0.0277756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/Global Volume Profile.asset
+  artifactKey: Guid(f83a19eb7a29591449275cb0deee646d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/Global Volume Profile.asset using Guid(f83a19eb7a29591449275cb0deee646d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7140cf1b7ae4571ef7ab79d1759910e0') in 0.015927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/LightingData.asset
+  artifactKey: Guid(1956741efa15b574184cb420021743d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Demo/Demo/HDRP/Light inf/LightingData.asset using Guid(1956741efa15b574184cb420021743d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdabd6f0cc12d01fa278ae1dc6f1a8a8') in 0.0165103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DavePixel/PirateCoin HDRP/Textures/Brass/Brass_MaskMap.png
+  artifactKey: Guid(9a128b4529635eb4887856143d442e3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin HDRP/Textures/Brass/Brass_MaskMap.png using Guid(9a128b4529635eb4887856143d442e3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '383b3cdec7c103b860ef104c72e7f207') in 0.0277461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_Normal.png
+  artifactKey: Guid(6bb47df71a2273442b68caf761e37917) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/DarkGold/Coin_Low_lambert1_Normal.png using Guid(6bb47df71a2273442b68caf761e37917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b783bd6a164b773abe68604718617c3') in 0.0308053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Roughness.png
+  artifactKey: Guid(946a86598bec1524fb86f214946890c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DavePixel/PirateCoin/Textures/Gold/Coin_Low_lambert1_Roughness.png using Guid(946a86598bec1524fb86f214946890c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff4429c409424fe6e29ed94986b4be2a') in 0.0285797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1041.635059 seconds.
+  path: Assets/PowerUps/Prefabs/CubeHealth.prefab
+  artifactKey: Guid(e43b16f8cd505de4a915c4e9a65896b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PowerUps/Prefabs/CubeHealth.prefab using Guid(e43b16f8cd505de4a915c4e9a65896b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70fed50ccbae920b9039add20ee1d5b1') in 0.0643536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
