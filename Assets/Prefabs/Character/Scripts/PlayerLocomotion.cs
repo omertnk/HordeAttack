@@ -44,8 +44,8 @@ public class PlayerLocomotion : MonoBehaviour
     {
         HandleFallingAndLanding();
 
-        if (playerManager.isInteracting)
-            return;
+        // if (playerManager.isInteracting)
+        //     return;
 
         HandleMovement();
         HandleRotation();
@@ -53,7 +53,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void HandleMovement()
     {
-        if (isJumping) return;
+        //if (isJumping) return;
         moveDirection = cameraObject.forward * inputManager.verticalInput;
         moveDirection += moveDirection + cameraObject.right * inputManager.horizontalInput;
         moveDirection.Normalize();
@@ -69,7 +69,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void HandleRotation()
     {
-        if (isJumping) return;
+        //if (isJumping) return;
         Vector3 targetDirection = Vector3.zero;
 
         targetDirection = cameraObject.forward * inputManager.verticalInput;
