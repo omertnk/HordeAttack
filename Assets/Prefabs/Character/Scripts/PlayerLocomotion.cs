@@ -112,11 +112,6 @@ public class PlayerLocomotion : MonoBehaviour
 
         if (isHit)
         {
-            if (!isGrounded && playerManager.isInteracting)
-            {
-                animatorManager.PlayTargetAnimation("Landing", true);
-            }
-            
             Vector3 rayCastHitPoint = hit.point;
             targetPosition.y = rayCastHitPoint.y;
             inAirTimer = 0;
