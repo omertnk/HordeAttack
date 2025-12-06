@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -7,26 +8,38 @@ public class XpBar : MonoBehaviour
     public Slider xpSlider;
     public Slider easeXpSlider;
     public float maxXp = 100f;
-    public float xp;
+    public float currentXp;
     private float lerpSpeed = 0.01f;
+    
+    public int characterLevel = 1;
     
     void Start()
     {
-        xp = maxXp;
+        currentXp = 0;
     }
-    
+
+    private void FixedUpdate()
+    {
+        if (currentXp > maxXp)
+        {
+            currentXp = 0;
+            characterLevel++;
+            Debug.Log("Level Up!");
+        }
+    }
+
     void Update()
     {
         if(!xpSlider || !easeXpSlider) return;
         
-        if (!Mathf.Approximately(xpSlider.value, xp))
+        if (!Mathf.Approximately(xpSlider.value, currentXp))
         {
-            xpSlider.value = xp;
+            xpSlider.value = currentXp;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            TakeDamage(10);
+            GainXp(10);
         }
 
         if (!Mathf.Approximately(xpSlider.value, easeXpSlider.value))
@@ -34,9 +47,9 @@ public class XpBar : MonoBehaviour
             easeXpSlider.value = Mathf.Lerp(easeXpSlider.value, xpSlider.value, lerpSpeed);
         }
     }
-
-    void TakeDamage(float damageAmount)
+    
+    void GainXp(float xpAmount)
     {
-        xp -= damageAmount;
+        currentXp += xpAmount;
     }
 }

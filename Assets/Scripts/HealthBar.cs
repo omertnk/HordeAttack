@@ -6,21 +6,21 @@ public class HealthBar : MonoBehaviour
     public Slider healthSlider;
     public Slider easeHealthSlider;
     public float maxHealth = 100f;
-    public float health;
+    public float currentHealth;
     private float lerpSpeed = 0.01f;
     
     void Start()
     {
-        health = maxHealth;
+        currentHealth = maxHealth;
     }
     
     void Update()
     {
         if(!healthSlider || !easeHealthSlider) return;
         
-        if (!Mathf.Approximately(healthSlider.value, health))
+        if (!Mathf.Approximately(healthSlider.value, currentHealth))
         {
-            healthSlider.value = health;
+            healthSlider.value = currentHealth;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -36,6 +36,6 @@ public class HealthBar : MonoBehaviour
 
     void TakeDamage(float damageAmount)
     {
-        health -= damageAmount;
+        currentHealth -= damageAmount;
     }
 }
