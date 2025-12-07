@@ -37,11 +37,6 @@ public class XpBar : MonoBehaviour
             xpSlider.value = currentXp;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GainXp(10);
-        }
-
         if (!Mathf.Approximately(xpSlider.value, easeXpSlider.value))
         {
             easeXpSlider.value = Mathf.Lerp(easeXpSlider.value, xpSlider.value, lerpSpeed);
