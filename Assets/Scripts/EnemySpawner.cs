@@ -25,23 +25,27 @@ public class EnemySpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnInterval);
             SpawnEnemy();
+            Debug.Log("Enemy Spawned");
         }
     }
 
     void SpawnEnemy()
     {
-        if (enemyPrefabs.Length == 0) return;
+        if (enemyPrefabs.Length == 0 || player == null) return;
         
-        int randomIndex = Random.Range(0, enemyPrefabs.Length);
-        GameObject selectedEnemy = enemyPrefabs[randomIndex];
+        Vector2 randomCircle = Random.insideUnitCircle * spawnRadius;
         
-        Vector3 randomPoint = Random.insideUnitSphere * spawnRadius;
-        randomPoint += player.transform.position;
-        randomPoint.y = 0;
+        Vector3 randomPos = new Vector3(randomCircle.x, 0, randomCircle.y) + player.transform.position;
+        
+        randomPos.y = 100f; 
 
         NavMeshHit hit;
-        if (NavMesh.SamplePosition(randomPoint, out hit, 10.0f, NavMesh.AllAreas))
+        
+        if (NavMesh.SamplePosition(randomPos, out hit, 200.0f, NavMesh.AllAreas))
         {
+            int randomIndex = Random.Range(0, enemyPrefabs.Length);
+            GameObject selectedEnemy = enemyPrefabs[randomIndex];
+            
             Instantiate(selectedEnemy, hit.position, Quaternion.identity);
         }
     }
