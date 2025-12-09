@@ -51,7 +51,7 @@ public class XpBar : MonoBehaviour
         }
     }
     
-    void GainXp(float xpAmount)
+    public void GainXp(float xpAmount)
     {
         currentXp += xpAmount;
     }
