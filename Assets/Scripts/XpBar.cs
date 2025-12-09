@@ -13,9 +13,12 @@ public class XpBar : MonoBehaviour
     
     public int characterLevel = 1;
     
+    private GameObject playerObj;
+    
     void Start()
     {
         currentXp = 0;
+        playerObj = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void FixedUpdate()
@@ -24,6 +27,11 @@ public class XpBar : MonoBehaviour
         {
             currentXp = 0;
             characterLevel++;
+            AbilityController abilities = playerObj.GetComponent<AbilityController>();
+            if(abilities != null)
+            {
+                abilities.UnlockAbility(characterLevel - 1); 
+            }
             Debug.Log("Level Up!");
         }
     }

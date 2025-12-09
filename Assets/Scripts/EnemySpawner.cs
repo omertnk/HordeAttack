@@ -25,7 +25,6 @@ public class EnemySpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnInterval);
             SpawnEnemy();
-            Debug.Log("Enemy Spawned");
         }
     }
 

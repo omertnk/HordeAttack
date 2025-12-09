@@ -33,7 +33,7 @@ public class CameraManager : MonoBehaviour
       cameraTransform = Camera.main.transform;
       defaultPosition = cameraTransform.localPosition.z;
    }
-
+   
    public void HandleAllCameraMovement()
    {
       FollowTarget();

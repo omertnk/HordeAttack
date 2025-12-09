@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4872593755813101682, guid: 2fe8581b7bcf67647a57e1f2759bd276, type: 3}
+      propertyPath: collisionLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5391688785927381926, guid: 2fe8581b7bcf67647a57e1f2759bd276, type: 3}
       propertyPath: m_Name
       value: CameraManager
@@ -770,7 +774,11 @@ PrefabInstance:
       objectReference: {fileID: 695338765}
     - target: {fileID: 6774883953712540637, guid: 345d78eac8a2d7846b99fb4c37975409, type: 3}
       propertyPath: spawnRadius
-      value: 20
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774883953712540637, guid: 345d78eac8a2d7846b99fb4c37975409, type: 3}
+      propertyPath: spawnInterval
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
