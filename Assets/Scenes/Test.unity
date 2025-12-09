@@ -385,7 +385,7 @@ Transform:
   m_GameObject: {fileID: 746187041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.52, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -784,6 +784,50 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 1020448954}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[1].data
+      value: 
+      objectReference: {fileID: 11400000, guid: 613cd9721e21abc43a544b372ce98afc, type: 2}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[2].data
+      value: 
+      objectReference: {fileID: 11400000, guid: 554a87b57ec2c5f49898471758dbec95, type: 2}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].data
+      value: 
+      objectReference: {fileID: 11400000, guid: cc4dcf22bcb14764d9b52f59e9bbbcb6, type: 2}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[0].isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[1].isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[2].isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[1].currentCooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[2].currentCooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].currentCooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1403354636202194691, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: m_IsKinematic
       value: 0
@@ -796,6 +840,10 @@ PrefabInstance:
       propertyPath: myHealthSystem
       value: 
       objectReference: {fileID: 1701020936}
+    - target: {fileID: 5954001496703423473, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8071886292156434152, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

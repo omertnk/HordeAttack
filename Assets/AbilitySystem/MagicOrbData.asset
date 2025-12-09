@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e06b5d4fe3a5e4db8c8dc4172d6973, type: 3}
+  m_Name: MagicOrbData
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityData
+  abilityName: Magic Orb
+  icon: {fileID: 0}
+  projectilePrefab: {fileID: 8237650116260312226, guid: 162de1f16f4ea974e9e9fd45a3e80274, type: 3}
+  cooldownTime: 1
+  speed: 15
+  lifeTime: 4
+  damage: 20

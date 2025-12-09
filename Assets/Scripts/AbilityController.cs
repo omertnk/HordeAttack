@@ -44,7 +44,7 @@ public class AbilityController : MonoBehaviour
         {
             Vector3 spawnPosition = (firePoint != null) ? firePoint.position : transform.position;
             
-            Vector3 shootDirection = Camera.main.transform.forward;
+            Vector3 shootDirection = transform.forward;
             
             shootDirection.y = 0; 
             
