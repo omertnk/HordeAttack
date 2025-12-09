@@ -7,34 +7,34 @@ public class HealthBar : MonoBehaviour
     public Slider healthSlider;
     public Slider easeHealthSlider;
     
+    [Header("Owner Settings (ÖNEMLİ)")]
+    public GameObject ownerObject; 
     
     [Header("Stats")]
     public float maxHealth = 100f;
     public float currentHealth;
-    private float lerpSpeed = 0.01f; 
+    private float lerpSpeed = 0.05f; 
     
     private bool isDead = false;
     
-    private Animator animator;
-    private InputManager inputManager;
-    private Collider playerCollider;
-    private GameObject playerObj;
+    private Animator ownerAnimator;
+    private Collider ownerCollider;
+    private Rigidbody ownerRigidbody;
 
     void Start()
     {
         currentHealth = maxHealth;
         
-        playerObj = GameObject.FindGameObjectWithTag("Player");
-
-        if (playerObj != null)
+        if (ownerObject == null)
         {
-            animator = playerObj.GetComponent<Animator>();
-            playerCollider = playerObj.GetComponent<Collider>();
-            inputManager = playerObj.GetComponent<InputManager>();
+            ownerObject = transform.root.gameObject;
         }
-        else
+        
+        if (ownerObject != null)
         {
-            Debug.LogError("HATA: Sahne 'Player' tagine sahip bir obje yok!");
+            ownerAnimator = ownerObject.GetComponent<Animator>();
+            ownerCollider = ownerObject.GetComponent<Collider>();
+            ownerRigidbody = ownerObject.GetComponent<Rigidbody>();
         }
     }
     
@@ -69,18 +69,31 @@ public class HealthBar : MonoBehaviour
     private void Die()
     {
         isDead = true;
-        Debug.Log("Karakter Öldü!");
         
-        if (animator != null) 
-            animator.enabled = false;
+        if (ownerAnimator != null) ownerAnimator.enabled = false;
+        if (ownerCollider != null) ownerCollider.enabled = false;
         
-        playerObj.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        playerObj.GetComponent<Rigidbody>().AddTorque(transform.right * 10f);
-        inputManager.enabled = false;
-        
-        if (playerCollider != null)
+        if (ownerObject.CompareTag("Player"))
         {
-            playerCollider.enabled = false;
+            Debug.Log("OYUNCU ÖLDÜ!");
+            
+            InputManager input = ownerObject.GetComponent<InputManager>();
+            if(input != null) input.enabled = false;
+            
+            if (ownerRigidbody != null)
+            {
+                ownerRigidbody.constraints = RigidbodyConstraints.None;
+                ownerRigidbody.AddTorque(transform.right * 10f);
+            }
+        }
+        else if (ownerObject.CompareTag("Enemy"))
+        {
+            Debug.Log("DÜŞMAN ÖLDÜ!");
+            
+            var agent = ownerObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            if(agent != null) agent.enabled = false;
+            
+            Destroy(ownerObject, 2f); 
         }
     }
 }

@@ -30,12 +30,19 @@ public class ProjectileBehavior : MonoBehaviour
         
         if (other.CompareTag("Enemy"))
         {
-            other.GetComponentInChildren<HealthBar>().TakeDamage(damage);
+            HealthBar healthBar = other.GetComponentInChildren<HealthBar>();
+            healthBar.TakeDamage(damage);
+
+            if (healthBar.currentHealth <= 0)
+            {
+                Destroy(other.gameObject);
+                Debug.Log(other.name);
+            }
             
             Destroy(gameObject);
         }
         
-        if (other.gameObject.layer == LayerMask.NameToLayer("Environment")) // Veya Tag ile
+        if (other.gameObject.layer == LayerMask.NameToLayer("Environment")) 
         {
             Destroy(gameObject);
         }
