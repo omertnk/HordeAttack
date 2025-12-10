@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 1261688236716462973}
   - component: {fileID: 5338524159407546422}
   - component: {fileID: -3511620078604950463}
+  - component: {fileID: -8738538840721341794}
   m_Layer: 7
   m_Name: monster_scavenger_Skin_Red
   m_TagString: Enemy
@@ -595,6 +596,20 @@ CapsuleCollider:
   m_Height: 2.29
   m_Direction: 1
   m_Center: {x: 0.2, y: 0.42, z: 0}
+--- !u!114 &-8738538840721341794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168068442106150883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e264296a38e804e9e4f86501185444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
+  coinPrefab: {fileID: 4825487890057027167, guid: d2952d03b62e075458c118c9f36f68fb, type: 3}
+  dropChance: 100
 --- !u!1 &2513138530070425341
 GameObject:
   m_ObjectHideFlags: 0

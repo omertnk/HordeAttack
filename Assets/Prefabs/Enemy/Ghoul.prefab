@@ -944,6 +944,7 @@ GameObject:
   - component: {fileID: 6147838223719583714}
   - component: {fileID: -4257090525472164078}
   - component: {fileID: 8282355060741864304}
+  - component: {fileID: 803554135441573388}
   m_Layer: 7
   m_Name: Ghoul
   m_TagString: Enemy
@@ -1055,6 +1056,20 @@ CapsuleCollider:
   m_Height: 3.68
   m_Direction: 1
   m_Center: {x: -0.05, y: 1.6, z: 0.51}
+--- !u!114 &803554135441573388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309486516299566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e264296a38e804e9e4f86501185444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
+  coinPrefab: {fileID: 4825487890057027167, guid: d2952d03b62e075458c118c9f36f68fb, type: 3}
+  dropChance: 100
 --- !u!1 &1312574273513674
 GameObject:
   m_ObjectHideFlags: 0

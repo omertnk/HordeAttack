@@ -77,27 +77,27 @@ public class HealthBar : MonoBehaviour
 
         if (ownerAnimator != null) ownerAnimator.enabled = false;
         if (ownerCollider != null) ownerCollider.enabled = false;
-
-        // --- KRİTİK KONTROL ---
-        // Artık Tag'e bakmıyoruz, direkt senin işaretlediğin kutucuğa bakıyoruz.
+        
         if (isPlayer)
         {
             Debug.Log(">>> OYUNCU ÖLDÜ! (Game Over Başlatılıyor...)");
-
-            // Karakterin fiziksel olarak düşmesi için (Rigidbody varsa)
+            
             if (ownerRigidbody != null)
             {
                 ownerRigidbody.constraints = RigidbodyConstraints.None;
                 ownerRigidbody.AddTorque(transform.right * 10f);
             }
-
-            // 2 saniye sonra Game Over ekranını tetikle
+            
             Invoke("TriggerGameOver", 2f);
         }
         else
         {
-            // Kutucuk işaretli değilse düşmandır
-            Debug.Log("DÜŞMAN ÖLDÜ!");
+            EnemyLoot lootScript = ownerObject.GetComponent<EnemyLoot>();
+            
+            if (lootScript != null)
+            {
+                lootScript.DropCoin();
+            }
 
             var agent = ownerObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
             if (agent != null) agent.enabled = false;
@@ -108,13 +108,7 @@ public class HealthBar : MonoBehaviour
 
     void TriggerGameOver()
     {
-        // GameManager'ı bul (Yeni ve Eski Unity sürümleri için uyumlu)
-#if UNITY_2023_1_OR_NEWER
         GameManager gm = Object.FindFirstObjectByType<GameManager>();
-#else
-        GameManager gm = Object.FindObjectOfType<GameManager>();
-#endif
-
         if (gm != null)
         {
             gm.GameOver();
