@@ -802,11 +802,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: cc4dcf22bcb14764d9b52f59e9bbbcb6, type: 2}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[0].isUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[1].isUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[2].isUnlocked
@@ -814,7 +814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[3].isUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[1].currentCooldown
