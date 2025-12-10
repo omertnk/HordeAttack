@@ -3462,10 +3462,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c682241ee0741b44d90c66edd09b0bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AbilityController
+  firePoint: {fileID: 5954001496703423473}
   allAbilities:
   - data: {fileID: 11400000, guid: a9fad60e9946c6c44ac4499f567639dd, type: 2}
-    currentCooldown: 2
+    currentCooldown: 1
     isUnlocked: 1
+  - data: {fileID: 11400000, guid: 613cd9721e21abc43a544b372ce98afc, type: 2}
+    currentCooldown: 2
+    isUnlocked: 0
+  - data: {fileID: 11400000, guid: 554a87b57ec2c5f49898471758dbec95, type: 2}
+    currentCooldown: 4
+    isUnlocked: 0
+  - data: {fileID: 11400000, guid: cc4dcf22bcb14764d9b52f59e9bbbcb6, type: 2}
+    currentCooldown: 3
+    isUnlocked: 0
 --- !u!1 &3574492860797700309
 GameObject:
   m_ObjectHideFlags: 0

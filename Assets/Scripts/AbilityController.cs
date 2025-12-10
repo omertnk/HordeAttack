@@ -43,9 +43,9 @@ public class AbilityController : MonoBehaviour
         if (ability.data.projectilePrefab != null)
         {
             Vector3 spawnPosition = (firePoint != null) ? firePoint.position : transform.position;
-            
+
             Vector3 shootDirection = Camera.main.transform.forward;
-            
+
             shootDirection.y = 0; 
             
             shootDirection.Normalize();

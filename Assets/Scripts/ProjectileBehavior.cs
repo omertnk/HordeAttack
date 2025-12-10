@@ -14,6 +14,11 @@ public class ProjectileBehavior : MonoBehaviour
         
         Destroy(gameObject, _lifeTime);
     }
+    //For Skyfire
+    public void SetDirection(Vector3 newDirection)
+    {
+        direction = newDirection;
+    }
 
     void Update()
     {
