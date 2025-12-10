@@ -29,6 +29,8 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh) return;
+        
         UpdateAnimations();
         if (player == null) return;
 
