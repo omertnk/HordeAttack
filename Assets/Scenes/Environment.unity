@@ -330,8 +330,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
-      propertyPath: allAbilities.Array.data[4].isUnlocked
+      propertyPath: allAbilities.Array.data[2].isUnlocked
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[4].isUnlocked
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[4].currentCooldown

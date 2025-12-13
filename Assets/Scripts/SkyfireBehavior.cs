@@ -53,7 +53,7 @@ public class SkyfireBehavior : MonoBehaviour
 
         Vector3 targetPos = transform.position + (transform.forward * spawnDistance);
 
-        targetPos.y = 0.1f; 
+        targetPos.y = 9f; 
 
         transform.position = targetPos;
 
