@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36e06b5d4fe3a5e4db8c8dc4172d6973, type: 3}
-  m_Name: KnifeAbility
+  m_Name: PortalData
   m_EditorClassIdentifier: Assembly-CSharp::AbilityData
   abilityName: 
   icon: {fileID: 0}
-  projectilePrefab: {fileID: 4341287166024838344, guid: fdab2b7fbd01ba1448abbb99f1a645b5, type: 3}
-  cooldownTime: 2
-  speed: 10
-  lifeTime: 5
+  projectilePrefab: {fileID: 4653058708860370148, guid: e556a0782231d744d89682fd79cf71fe, type: 3}
+  cooldownTime: 4
+  speed: 4
+  lifeTime: 10
   damage: 40
