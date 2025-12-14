@@ -36,7 +36,9 @@ public class ProjectileBehavior : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             HealthBar healthBar = other.GetComponentInChildren<HealthBar>();
-            healthBar.TakeDamage(damage);
+            //healthBar.TakeDamage(damage);
+            //Damage PowerUp için ekledim
+            healthBar.TakeDamage(damage * PlayerStats.GlobalDamageMultiplier);
 
             if (healthBar.currentHealth <= 0)
             {

@@ -118,4 +118,21 @@ public class HealthBar : MonoBehaviour
             Debug.LogError("HATA: Sahnede 'GameManager' scripti olan bir obje bulunamadı!");
         }
     }
+
+    // --- BU KISMI SCRIPTIN EN ALTINA EKLE ---
+    public void Heal(float amount)
+    {
+        if (isDead) return;
+
+        currentHealth += amount;
+
+        // Canın maksimum canı geçmesin
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        // Slider zaten Update fonksiyonunda güncellendiği için burada başka bir şeye gerek yok.
+        Debug.Log("Can Yenilendi! Şu anki Can: " + currentHealth);
+    }
 }

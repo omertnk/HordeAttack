@@ -368,7 +368,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3547642106700993440, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695338776}
   m_SourcePrefab: {fileID: 100100000, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
 --- !u!1 &525277020
 GameObject:
@@ -502,6 +505,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3547642106700993440, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
   m_PrefabInstance: {fileID: 414748050}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &695338775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8071886292156434152, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+  m_PrefabInstance: {fileID: 414748050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695338776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695338765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4b36bf05ed3884788a19101ea5c99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  locomotionScript: {fileID: 0}
+  healthScript: {fileID: 0}
 --- !u!1001 &797711824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -514,6 +536,10 @@ PrefabInstance:
       propertyPath: isPlayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1951444701088168598, guid: aa04906489dbd9647b25ebc8360911ac, type: 3}
+      propertyPath: ownerObject
+      value: 
+      objectReference: {fileID: 695338765}
     - target: {fileID: 2448175204537139118, guid: aa04906489dbd9647b25ebc8360911ac, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -626,6 +652,60 @@ PrefabInstance:
       addedObject: {fileID: 1981404002}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa04906489dbd9647b25ebc8360911ac, type: 3}
+--- !u!1 &1180487586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180487588}
+  - component: {fileID: 1180487587}
+  m_Layer: 0
+  m_Name: PowerUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1180487587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180487586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47803e264a2195e47b2c3ee47c095dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpSpawner
+  powerUpPrefabs:
+  - {fileID: 294289168494944294, guid: f7bbc67cf48263f45aae368b131a54f2, type: 3}
+  - {fileID: 4633509764736498297, guid: 9a79d9557878b55428df1ab51e86c991, type: 3}
+  - {fileID: 1436820589240340545, guid: f19c409c8aaeaaa45990c4994219559c, type: 3}
+  playerTransform: {fileID: 695338775}
+  spawnInterval: 4
+  xDist: 15
+  zDist: 15
+  rayStartHeight: 50
+  heightOffset: 0.5
+--- !u!4 &1180487588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180487586}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.92543, y: 6.9492, z: 42.70185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419887959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,3 +1210,4 @@ SceneRoots:
   - {fileID: 1419887961}
   - {fileID: 7461448}
   - {fileID: 350472883}
+  - {fileID: 1180487588}
