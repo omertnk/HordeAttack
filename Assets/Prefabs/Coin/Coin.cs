@@ -1,21 +1,40 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Coin : MonoBehaviour
 {
     public float xpValue = 10f;
 
-    private void OnTriggerEnter(Collider other)
+    [Header("Effects")]
+    public GameObject collectEffect;
+    public AudioClip collectSound;
+
+    // CHANGED: We use OnCollisionEnter because "Is Trigger" will be turned OFF.
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Player"))
+        // CHANGED: We check "collision.gameObject"
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("zart zurt");
-
+            // 1. Give XP
             XpBar xpBarInstance = FindAnyObjectByType<XpBar>();
+            if (xpBarInstance != null)
+            {
+                xpBarInstance.GainXp(xpValue);
+            }
 
-            xpBarInstance.GainXp(xpValue);
+            // 2. Spawn Effect
+            if (collectEffect != null)
+            {
+                Instantiate(collectEffect, transform.position, Quaternion.identity);
+            }
 
-            Destroy(obj:this.gameObject);
+            // 3. Play Sound
+            if (collectSound != null)
+            {
+                AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            }
+
+            // 4. Destroy
+            Destroy(gameObject);
         }
     }
 }
