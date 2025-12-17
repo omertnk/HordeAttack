@@ -12,6 +12,8 @@ public class AbilityController : MonoBehaviour
         public AbilityData data;
         public float currentCooldown;
         public bool isUnlocked;
+        public bool isCameraFront;
+        public bool isCharacterFront;
     }
     
     public List<ActiveAbility> allAbilities = new List<ActiveAbility>();
@@ -43,8 +45,16 @@ public class AbilityController : MonoBehaviour
         if (ability.data.projectilePrefab != null)
         {
             Vector3 spawnPosition = (firePoint != null) ? firePoint.position : transform.position;
+            Vector3 shootDirection = Vector3.zero;
+            if (ability.isCameraFront)
+            {
+                shootDirection = Camera.main.transform.forward;
+            }
 
-            Vector3 shootDirection = Camera.main.transform.forward;
+            if (ability.isCharacterFront)
+            {
+                shootDirection = transform.forward;
+            }
 
             shootDirection.y = 0; 
             
