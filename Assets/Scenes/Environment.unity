@@ -327,19 +327,39 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: ddf2b83c8c0d2fd4599e9bf1200587c5, type: 2}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[0].isUnlocked
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[2].isUnlocked
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].isUnlocked
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[4].isUnlocked
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].isCameraFront
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[4].isCameraFront
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: allAbilities.Array.data[4].currentCooldown
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[3].isCharacterFront
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391895450464838255, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
+      propertyPath: allAbilities.Array.data[4].isCharacterFront
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3547642106700993440, guid: f8309c24c77387d43abb471f2a9b5a46, type: 3}
       propertyPath: m_Name
@@ -547,7 +567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   locomotionScript: {fileID: 0}
-  healthScript: {fileID: 0}
+  healthScript: {fileID: 1710868530}
 --- !u!1001 &797711824
 PrefabInstance:
   m_ObjectHideFlags: 0
